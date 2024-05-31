@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+  /* 设置根元素的字体大小，这样所有百分比字体大小都将基于此 */  
+  html {  
+    font-size: 16px; /* 你可以根据需要进行调整 */  
+  }  
+  
+  /* 你可以使用rem单位来基于根元素的字体大小设置字体 */  
+  body {  
+    font-size: 1rem; /* 这将等于html元素的字体大小，即16px */  
+  }  
+  
+  
+  
+  /* 使用媒体查询来根据视口宽度调整根元素的字体大小，从而间接影响所有使用rem单位的字体大小 */  
+  @media (max-width: 600px) {  
+    html {  
+      font-size: 10px; /* 在小屏幕上减小字体大小 */  
+    }  
+    
+  } 
+  
+  
+  
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bigbox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.max {
+  width: 640px;
+  height: 1008px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.one {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/1/背景.jpg);
+  background-size: cover;
+  display: flex;
+
+}
+/* 画卷 */
+.hj-left {
+  width: 40%;
+  height: 38.59%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 7.93%;
+  margin-left: 8.43%;
+}
+
+.s-img {
+  width: 100%;
+  /* height: 5.27%; */
+
+}
+/* 改：图片 */
+.z-img {
+  width: 81.60%;
+  height: 0;
+  overflow: hidden;
+  /* height:88.2%; */
+  position: absolute;
+  top: 21px;
+  transition: height 2s ease-in-out;
+  /* left: 25px; */
+
+}
+
+.z-img.expanded {
+  height: 88.2%; /* 变长后的高度 */
+}
+
+
+.z-img>img{
+  width: 100%;
+  height:100%;
+}
+.p-one{
+ 
+  font-size:300%;
+  color: #333;
+  font-weight: bold;
+  position: absolute;
+  top: 6%;
+  left: 17%;
+}
+.p-tow{
+  font-size: 500%;
+  color: #333;
+  font-weight: bolder;
+  position: absolute;
+  top: 30%;
+  left: 47%;
+}
+.yz-img{
+    width: 7%;
+    position: absolute;
+    top: 25%;
+    left: 80%;
+}
+.mb-img{
+  width:40%;
+  position: absolute;
+  left: 85%;
+  top: 5%;
+}
+
+
+.x-img {
+  width: 100%;
+  height: 5.57%;
+  position: absolute;
+  top: 3%;
+  left:0;
+  /* 改 */
+  transition: top 2s ease-in-out;
+}
+
+/* 改 */
+.x-img.down{
+  top: 93%;
+}
+
+
+
+
+/* 画卷动效 */
+.z-dx{
+  width:100%;
+  /* height:88.2%; */
+  height: 100%;
+  position: absolute;
+  top: 21px;
+  /* left: 25px; */
+  /* animation: transform 10 linear 1 1 normal forwards; */
+}
+
+/* @keyframes ztcontent{
+  0%{
+   transform: 0%;
+  }
+  25%{
+    transform: 25%;
+  }
+  50%{
+    transform: 50%;
+  }
+  75%{
+    transform: 75%;
+  }
+  100%{
+    transform: 100%;
+  }
+} */
+
+/* 开始 */
+.ks-btn {
+  align-self: flex-end;
+  width: 28.59%;
+  /* height: 6.25%; */
+  margin-left: -13.125%;
+  margin-bottom: 20%;
+}
+
+.anima {
+  animation-name: likes; 
+  animation-direction: alternate; 
+  animation-timing-function: linear; 
+  animation-delay: 0s; 
+  animation-iteration-count: infinite; 
+  animation-duration: 1s; 
+}
+
+@keyframes likes {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(0.9);
+  }
+
+  50% {
+    transform: scale(0.85);
+  }
+
+  75% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+/* 人物 */
+.rw-img {
+  width: 32.66%;
+  /* height: 47.123%; */
+  align-self: flex-end;
+  margin-bottom: 9.92%;
+}

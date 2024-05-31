@@ -1,0 +1,950 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 设置根元素的字体大小，这样所有百分比字体大小都将基于此 */
+html {
+  font-size: 16px;
+  /* 你可以根据需要进行调整 */
+}
+
+/* 你可以使用rem单位来基于根元素的字体大小设置字体 */
+body {
+  font-size: 1rem;
+  /* 这将等于html元素的字体大小，即16px */
+}
+
+
+
+/* 使用媒体查询来根据视口宽度调整根元素的字体大小，从而间接影响所有使用rem单位的字体大小 */
+@media (max-width: 600px) {
+  html {
+    font-size: 10px;
+    /* 在小屏幕上减小字体大小 */
+  }
+
+}
+
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bigbox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  list-style: none;
+
+}
+
+.max {
+  width: 640px;
+  height: 1008px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.one {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/1/背景.jpg);
+  background-size: cover;
+  display: flex;
+  position: absolute;
+  z-index: 99;
+}
+
+/* 画卷 */
+.hj-left {
+  width: 40%;
+  height: 38.59%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 7.93%;
+  margin-left: 8.43%;
+}
+
+.s-img {
+  width: 100%;
+  /* height: 5.27%; */
+
+}
+
+/* 改：图片 */
+.z-img {
+  width: 81.60%;
+  height: 0;
+  overflow: hidden;
+  /* height:88.2%; */
+  position: absolute;
+  top: 4.9%;
+  transition: height 2s ease-in-out;
+  /* left: 25px; */
+
+}
+
+.z-img.expanded {
+  height: 80%;
+  /* 变长后的高度 */
+}
+
+
+.z-img>img {
+  width: 100%;
+  height: 100%;
+}
+
+.p-one {
+
+  font-size: 300%;
+  color: #333;
+  font-weight: bold;
+  position: absolute;
+  top: 6%;
+  left: 17%;
+  /* display: none; */
+  opacity: 0;
+}
+
+.p-onet {
+  animation: showtow 1s ease-in-out forwards;
+}
+
+.p-tow {
+  font-size: 500%;
+  color: #333;
+  font-weight: bolder;
+  position: absolute;
+  top: 30%;
+  left: 47%;
+  /* display: none; */
+  /* visibility:initial; */
+  /* visibility: hidden; */
+  opacity: 0;
+
+}
+
+@keyframes showtow {
+  0% {
+    opacity: 0;
+    /* 初始状态为完全透明 */
+  }
+
+  100% {
+    opacity: 1;
+    /* 结束时为完全不透明 */
+  }
+}
+
+.p-towt {
+  /* display: block; */
+  animation: showtow 1s ease-in-out forwards;
+}
+
+.yz-img {
+  width: 7%;
+  position: absolute;
+  top: 25%;
+  left: 80%;
+  /* display: none;
+    transform: top 1s ease-in-out  ; */
+  opacity: 0;
+}
+
+.yz-imgt {
+  /* display: block; */
+  animation: showtow 1s ease-in-out forwards;
+}
+
+/* 改：笔的动画 */
+.mb-img {
+  width: 40%;
+  position: absolute;
+  left: 85%;
+  top: -9%;
+  display: none;
+}
+
+/* 改：笔的动画 */
+.mb-img.start {
+  animation: movePen 3s linear 1;
+  display: block;
+}
+
+/* 改：笔的动画 */
+@keyframes movePen {
+  0% {
+    top: -5%;
+    left: 80%;
+  }
+
+  50% {
+    top: 15%;
+    /* 笔在纸上移动到的垂直位置 */
+    left: 65%;
+    /* 笔在纸上移动到的水平位置 */
+  }
+
+  100% {
+    top: 30%;
+    left: 90%;
+  }
+}
+
+/* .mb-img>img{
+  z-index: 999;
+} */
+
+
+.x-img {
+  width: 100%;
+  height: 5.57%;
+  position: absolute;
+  top: 3%;
+  left: 0;
+  /* 改 */
+  transition: top 2s ease-in-out;
+}
+
+/* 改 */
+.x-img.down {
+  top: 83%;
+}
+
+
+
+
+/* 画卷动效 */
+.z-dx {
+  width: 100%;
+  /* height:88.2%; */
+  height: 100%;
+  position: absolute;
+  top: 21px;
+  /* left: 25px; */
+  /* animation: transform 10 linear 1 1 normal forwards; */
+}
+
+/* @keyframes ztcontent{
+  0%{
+   transform: 0%;
+  }
+  25%{
+    transform: 25%;
+  }
+  50%{
+    transform: 50%;
+  }
+  75%{
+    transform: 75%;
+  }
+  100%{
+    transform: 100%;
+  }
+} */
+
+/* 开始 */
+.ks-btn {
+  align-self: flex-end;
+  width: 45%;
+  /* height: 6.25%; */
+  margin-left: -13.125%;
+  margin-bottom: 30%;
+}
+
+.anima {
+  animation-name: likes;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+@keyframes likes {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(0.9);
+  }
+
+  50% {
+    transform: scale(0.85);
+  }
+
+  75% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* 人物 */
+.rw-img {
+  width: 32.66%;
+  /* height: 47.123%; */
+  align-self: flex-end;
+  margin-bottom: 20%;
+}
+
+/* 第二部分 */
+.tow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 98;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 试图区域 */
+.attArea {
+  width: 88.125%;
+  height: 88.492%;
+  position: relative;
+}
+
+/* 图片 */
+.one-img {
+  width: 100%;
+  height: 40.135%;
+  opacity: 0;
+}
+.one-imgt{
+  animation: imgtow 2s ease-in-out 1 forwards;
+}
+
+@keyframes imgtow {
+  0% {
+    opacity: 1;
+    transform: translateX(0rpx);
+    transform: scale(.8);
+  }
+
+  /* 50% { transform: translateX(20rpx); transform: scale(1);  } */
+  100% {
+    opacity: 1;
+    transform: translateX(20rpx);
+    transform: scale(1);
+  }
+
+}
+
+.tow-img {
+  width: 53.13%;
+  height: 48.88%;
+  position: absolute;
+  top: 24.22%;
+  opacity: 0;
+  
+  
+}
+.tow-imgt{
+  animation: enter-x-left 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+@keyframes enter-x-left {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.three-img {
+  width: 44.5%;
+  height: 39.24%;
+  position: absolute;
+  top: 33.86%;
+  left: 55.23%;
+  opacity: 0;
+  
+}
+.three-imgt{
+  animation: enter-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(50px);
+}
+@keyframes enter-x-right {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.four-img {
+  width: 100%;
+  height: 25.46%;
+  position: absolute;
+  top: 74.55%;
+  opacity: 0;
+  
+}
+.four-imgt{
+  animation: four-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateY(50px);
+}
+@keyframes four-x-right {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rw-tow {
+  width: 38.72%;
+  height: 59.87%;
+  position: absolute;
+  top: 6.95%;
+  left: 6.03%;
+  z-index: 1;
+  opacity: 0;
+  
+}
+.rw-towt{
+  animation: rw-x-left 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+@keyframes rw-x-left {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.zt-img {
+  width: 53.19%;
+  height: 28.25%;
+  position: absolute;
+  top: 50%;
+  left: 35.82%;
+  z-index: 1;
+  opacity: 0;
+ 
+}
+.zt-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+
+@keyframes showtow {
+  0% {
+    opacity: 0;
+    /* 初始状态为完全透明 */
+  }
+
+  100% {
+    opacity: 1;
+    /* 结束时为完全不透明 */
+  }
+}
+
+/* 第三部分 */
+.three{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 97;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.one-bf{
+  width: 100%;
+  height:30.04% ;
+  position: relative;
+}
+.one-bf-one{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+ 
+}
+.one-bf-onet{
+  animation: showtow 2s ease-in-out forwards;
+}
+@keyframes showtow {
+  0% {
+    opacity: 0;
+    /* 初始状态为完全透明 */
+  }
+
+  100% {
+    opacity: 1;
+    /* 结束时为完全不透明 */
+  }
+}
+.one-bf-tow{
+  width: 51.42%;
+  height: 66.79%;
+  position: absolute;
+  top:20%;
+  left: 5%;
+  opacity: 0;
+
+}
+.one-bf-towt{
+  animation: enter-x-left 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+@keyframes enter-x-left {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.tow-bf{
+  width: 50.53%;
+  height:41.14% ;
+  position: absolute;
+  top: 32%;
+  opacity: 0;
+ 
+}
+.tow-bft{
+  animation: enter-x-left 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+.three-bf{
+  width: 46.1%;
+  height: 48.99%;
+  position: absolute;
+  top: 32%;
+  left: 54%;
+}
+.three-bf-one{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+ 
+}
+.three-bf-onet{
+  animation: enter-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(50px);
+}
+.three-bf-tow{
+  width: 43.85%;
+  height: 68.19%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  opacity: 0;
+}
+.three-bf-towt{
+  animation: enter-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(50px);
+}
+
+.four-bf{
+  width:100% ;
+  height: 32.96%;
+  position: absolute;
+  top: 67%;
+}
+.four-bf-one{
+  width:100% ;
+  height: 100%;
+  opacity: 0;
+  
+}
+.four-bf-onet{
+  animation: four-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateY(50px);
+}
+.four-bf-tow{
+  width:22.34% ;
+  /* height: 12.22%; */
+  position: absolute;
+  top:45%;
+  left: 17%;
+  z-index: 2;
+  opacity: 0;
+ 
+}
+.four-bf-towt{
+  animation: enter-x-left 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+.four-bf-three{
+  width: 35.44%;
+  /* height: ; */
+  position: absolute;
+  top: 63%;
+  left: 30%;
+  opacity: 0;
+}
+.four-bf-threet{
+  animation-name: likes;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+
+.five-bf{
+  width:41.31% ;
+  height:30.05% ;
+  position: absolute;
+  top: 10%;
+  left: 56%;
+  z-index: 2;
+  opacity: 0;
+  
+}
+.five-bft{
+  animation: enter-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(50px);
+}
+
+/* 第四部分 */
+.four{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 96;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.attAreat {
+  width: 88.125%;
+  height: 88.492%;
+  position: relative;
+  opacity: 0;
+  
+}
+.attAreatt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.bb-one{
+  width: 28.02%;
+  height: 18.95%;
+  position: absolute;
+  top: 49.5%;
+  left: 13%;
+  opacity: 0;
+ 
+}
+.bb-onet{
+  animation: showtow 2s ease-in-out forwards;
+}
+
+.bb-tow{
+  width: 30.67%;
+  height: 24.78%;
+  position: absolute;
+  top: 44%;
+  left: 55%;
+  opacity: 0;
+  
+}
+.bb-towt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.xz-one{
+  width: 30%;
+  height: 10.5%;
+  position: absolute;
+  top: 73%;
+  left: 14%;
+  opacity: 0;
+  
+}
+
+.xz-onett{
+    animation-name: likes;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+  
+}
+
+.xz-tow{
+  width: 30%;
+  height: 10.5%;
+  position: absolute;
+  top: 73%;
+  left: 58%;
+  opacity: 0;
+  
+}
+.xz-towtt{
+  animation-name: likes;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+
+}
+/* 第五部分 */
+.five{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 95;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.attAreats {
+  width: 88.125%;
+  height: 88.492%;
+  position: relative;
+  opacity: 0;
+}
+.attAreatst{
+  animation: showtow 2s ease-in-out forwards;
+}
+.sb-img{
+  width: 50%;
+  height: 30%;
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  opacity: 0;
+}
+.sb-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.jd-img{
+  width: 31.76%;
+  height: 15.23%;
+  position: absolute;
+  top: 52%;
+  left: 3%;
+  opacity: 0;
+}
+.jd-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.rl-img{
+  width: 40%;
+  height: 17.75%;
+  position: absolute;
+  top: 48%;
+  left: 55%;
+  opacity: 0;
+}
+.rl-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.ny-img{
+  width: 30%;
+  height: 13.43%;
+  position: absolute;
+  top: 70%;
+  left: 74%;
+  opacity: 0;
+}
+.ny-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.mbj-img{
+  /* width: 100%; */
+  height: 18%;
+  position: absolute;
+  top: 23%;
+  left: 20%;
+  opacity: 0;
+}
+.mbj-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.yx-img{
+  width: 44.33%;
+  height: 6.5%;
+  position: absolute;
+  top: 30%;
+  left: 27%;
+  opacity: 0;
+}
+.yx-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.btn-img{
+  width: 30%;
+  height: 9.49%;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  opacity: 0;
+}
+.btn-imgtt{
+    animation-name: likes;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+/* 第六部分 */
+.six{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 94;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.attAreat-one{
+  width: 88.125%;
+  height: 88.492%;
+  position: relative;
+}
+.cr-img{
+  width: 43.26%;
+  height: 46.75%;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  opacity: 0;
+}
+.cr-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.mb-tow{
+  width: 57.62%;
+  height: 16.5%;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+ opacity: 0;
+}
+.mb-towt{
+  animation: showtow 2s ease-in-out forwards;
+}
+
+.cg-img{
+  width: 44.15%;
+  height: 6.5%;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  opacity: 0;
+}
+.cg-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.jx-img{
+  width: 18%;
+  height: 8%;
+  position: absolute;
+  top: 37%;
+  left: 38.5%;
+  opacity: 0;
+}
+.jx-imgt{
+  animation-name: likes;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+.xx-max{
+  width: 10.3%;
+  height: 6.5%;
+  position: absolute;
+  top: 64%;
+  left: 15%;
+  opacity: 0;
+}
+.xx-maxt{
+  animation: star 1s ease-in infinite;
+
+}
+@keyframes star {
+  10% {
+      opacity: 0;
+  }
+
+  90% {
+      opacity: 1;
+  }
+}
+.xx-min{
+  width: 5.9%;
+  height: 3.72%;
+  opacity: 0;
+}
+
+.left-xx{
+  position: absolute;
+  top: 61%;
+  left: 23%;
+}
+.left-xxt{
+  animation: star 1s ease-in infinite;
+}
+.left-sx{
+  position: absolute;
+  top: 72%;
+  left: 25%;
+}
+.left-sxt{
+  animation: star 1s ease-in infinite;
+}
+.right-xx{
+  position: absolute;
+  top: 60.2%;
+  right: 15%;
+}
+.right-xxt{
+  animation: star 1s ease-in infinite;
+}
