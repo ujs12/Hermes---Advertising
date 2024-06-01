@@ -72,7 +72,7 @@ img {
 .one {
   width: 100%;
   height: 100%;
-  background-image: url(../images/1/背景.jpg);
+  background-image: url(../images/1/beijing.jpg);
   background-size: cover;
   display: flex;
   position: absolute;
@@ -107,11 +107,10 @@ img {
   top: 4.9%;
   transition: height 2s ease-in-out;
   /* left: 25px; */
-
 }
 
 .z-img.expanded {
-  height: 80%;
+  height: 70%;
   /* 变长后的高度 */
 }
 
@@ -122,12 +121,11 @@ img {
 }
 
 .p-one {
-
-  font-size: 300%;
+  width: 25%;
+  height: 40.7%;
   color: #333;
-  font-weight: bold;
   position: absolute;
-  top: 6%;
+  top: 10%;
   left: 17%;
   /* display: none; */
   opacity: 0;
@@ -138,12 +136,11 @@ img {
 }
 
 .p-tow {
-  font-size: 500%;
-  color: #333;
-  font-weight: bolder;
+width:31% ;
+height: 46.23%;
   position: absolute;
-  top: 30%;
-  left: 47%;
+  top: 40%;
+  left:55%;
   /* display: none; */
   /* visibility:initial; */
   /* visibility: hidden; */
@@ -169,7 +166,7 @@ img {
 }
 
 .yz-img {
-  width: 7%;
+  width: 10%;
   position: absolute;
   top: 25%;
   left: 80%;
@@ -235,7 +232,7 @@ img {
 
 /* 改 */
 .x-img.down {
-  top: 83%;
+  top: 74%;
 }
 
 
@@ -947,4 +944,23 @@ img {
 }
 .right-xxt{
   animation: star 1s ease-in infinite;
+}
+
+/* 第七部分 */
+.seven{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  /* z-index: 100; */
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.attAreat-tow {
+  width: 88.125%;
+  height: 88.492%;
+  position: relative;
+  /* opacity: 0; */
 }
