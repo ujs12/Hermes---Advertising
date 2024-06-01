@@ -791,9 +791,9 @@ height: 46.23%;
 }
 .mbj-img{
   /* width: 100%; */
-  height: 18%;
+  height: 15%;
   position: absolute;
-  top: 23%;
+  top: 25%;
   left: 20%;
   opacity: 0;
 }
@@ -805,7 +805,7 @@ height: 46.23%;
   height: 6.5%;
   position: absolute;
   top: 30%;
-  left: 27%;
+  left: 30%;
   opacity: 0;
 }
 .yx-imgt{
@@ -815,7 +815,7 @@ height: 46.23%;
   width: 30%;
   height: 9.49%;
   position: absolute;
-  top: 40%;
+  top: 38%;
   left: 35%;
   opacity: 0;
 }
