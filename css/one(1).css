@@ -798,7 +798,7 @@ height: 46.23%;
 }
 .mbj-img{
   /* width: 100%; */
-  height: 15%;
+  height: 20%;
   position: absolute;
   top: 25%;
   left: 20%;
@@ -960,7 +960,7 @@ height: 46.23%;
   display: flex;
   position: absolute;
   top: 0;
-  /* z-index: 100; */
+  z-index: 93;
   background-color: #fff;
   justify-content: center;
   align-items: center;
@@ -970,4 +970,81 @@ height: 46.23%;
   height: 88.492%;
   position: relative;
   /* opacity: 0; */
+}
+.right-ys{
+  width: 24.82%;
+  height: 17%;
+  position: absolute;
+  top: 3%;
+  right: 0.3%;
+  opacity: 0;
+  /* animation: showtow 2s ease-in-out forwards; */
+ 
+}
+.right-yst{
+  animation: enter-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(50px);
+}
+.qy-img{
+  width: 50.35%;
+  height: 9.75%;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  opacity: 0;
+}
+.qy-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.qz-img{
+  width: 39%;
+  height: 4.93%;
+  position: absolute;
+  top: 21%;
+  left: 20%;
+  opacity: 0;
+}
+.qz-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+
+.rw-three{
+  width: 51.77%;
+  height: 22.65%;
+  position: absolute;
+  top: 30%;
+  left: 0.3%;
+  opacity: 0;
+  
+}
+.rw-threet{
+  animation: enter-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+.bao-img{
+  width: 54.96%;
+  height:33.29%;
+  position: absolute;
+  top: 33%;
+  right: 0.3%;
+  opacity: 0;
+  
+}
+.bao-imgt{
+  animation: enter-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(50px);
+}
+.xxz-img{
+  width: 35.64%;
+  height:2.5%;
+  position: absolute;
+  top: 70%;
+  right: 20%;
+  opacity: 0;
+}
+.xxz-imgt{
+  animation: showtow 2s ease-in-out forwards;
 }

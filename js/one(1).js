@@ -228,3 +228,31 @@ xzTow.onclick = function(){
     jxImg.classList.add("jx-imgt");
   }, 5000);
 }
+
+var six = document.getElementsByClassName("six")[0];
+var rgYs = document.getElementsByClassName("right-ys")[0];
+var rwTh = document.getElementsByClassName("rw-three")[0];
+var baImg = document.getElementsByClassName("bao-img")[0];
+var qyImg = document.getElementsByClassName("qy-img")[0];
+var qzImg = document.getElementsByClassName("qz-img")[0];
+var xxzImg = document.getElementsByClassName("xxz-img")[0];
+
+jxImg.onclick = function(){
+    six.style.display = "none";
+    setTimeout(() => {
+      rgYs.classList.add("right-yst")
+    }, 1000);
+    setTimeout(() => {
+      rwTh.classList.add("rw-threet")
+    }, 3000);
+    setTimeout(() => {
+      baImg.classList.add("bao-imgt")
+    }, 5000);
+    setTimeout(() => {
+      qyImg.classList.add("qy-imgt")
+      qzImg.classList.add("qz-imgt")
+    }, 7000);
+    setTimeout(() => {
+      xxzImg.classList.add("xxz-imgt")
+    }, 9000);
+}
