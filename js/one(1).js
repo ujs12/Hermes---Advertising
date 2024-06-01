@@ -4,6 +4,8 @@ var mbImg = document.getElementsByClassName("mb-img")[0];
 var pOne = document.getElementsByClassName("p-one")[0];
 var pTow = document.getElementsByClassName("p-tow")[0];
 var yzImg = document.getElementsByClassName("yz-img")[0];
+var rwImg = document.getElementsByClassName("rw-img")[0];
+var ksBtn = document.getElementsByClassName("ks-btn")[0];
 // xImg.click = function(){
 //   setTimeout(function () {
 //     zImg.className = 'z-dx';
@@ -16,14 +18,21 @@ zImg.classList.add('expanded');
 xImg.classList.add('down');
 setTimeout(() => {
   mbImg.classList.add('start');
-  pOne.classList.add('p-onet')
+  pOne.classList.add('p-onet');
 }, 2000);
 setTimeout(() => {
-  pTow.classList.add('p-towt')
+  pTow.classList.add('p-towt');
 }, 3000);
 setTimeout(() => {
-  yzImg.classList.add('yz-imgt')
+  yzImg.classList.add('yz-imgt');
 }, 4000);
+setTimeout(() => {
+  rwImg.classList.add("rw-imgt");
+}, 5000);
+setTimeout(() => {
+  ksBtn.style.opacity="1";
+  ksBtn.classList.add("anima");
+}, 6500);
 
 // });
 
