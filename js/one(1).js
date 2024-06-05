@@ -30,7 +30,7 @@ setTimeout(() => {
   rwImg.classList.add("rw-imgt");
 }, 5000);
 setTimeout(() => {
-  ksBtn.style.opacity="1";
+  ksBtn.style.opacity = "1";
   ksBtn.classList.add("anima");
 }, 6500);
 
@@ -76,51 +76,51 @@ ksBtn.onclick = function () {
   setTimeout(() => {
     rwTow.classList.add('rw-towt');
 
-  }, 4000);
+  }, 3500);
   setTimeout(() => {
     ztImg.classList.add('zt-imgt');
 
-  }, 6000);
+  }, 5000);
   setTimeout(() => {
     threeImg.classList.add('three-imgt');
 
-  }, 8000);
+  }, 6500);
   setTimeout(() => {
     fourImg.classList.add('four-imgt');
-  }, 10000);
+  }, 8000);
   setTimeout(() => {
-   tow.style.display="none";
-   oneOne.classList.add("one-bf-onet")
-  }, 12000);
-  
+    tow.style.display = "none";
+    oneOne.classList.add("one-bf-onet")
+  }, 10000);
+
   setTimeout(() => {
     oneTow.classList.add("one-bf-towt")
-  }, 14000);
+  }, 11500);
   setTimeout(() => {
     fiveBf.classList.add("five-bft")
-  }, 16000);
-  
+  }, 13000);
+
   setTimeout(() => {
     towBf.classList.add("tow-bft")
-  }, 18000);
-  
+  }, 14500);
+
   setTimeout(() => {
     threeOne.classList.add("three-bf-onet")
-  }, 20000);
+  }, 16000);
   setTimeout(() => {
     threeTow.classList.add("three-bf-towt")
-  }, 22000);
+  }, 17500);
   setTimeout(() => {
     fourOne.classList.add("four-bf-onet")
-  }, 24000);
+  }, 19000);
   setTimeout(() => {
     fourTow.classList.add("four-bf-towt")
-  }, 26000);
-  
+  }, 20500);
+
   setTimeout(() => {
-    fourThree.style.opacity="1";
+    fourThree.style.opacity = "1";
     fourThree.classList.add("four-bf-threet")
-  }, 28000);
+  }, 22000);
 
 }
 
@@ -131,24 +131,24 @@ var bTow = document.getElementsByClassName("bb-tow")[0];
 var xzOne = document.getElementsByClassName("xz-one")[0];
 var xzTow = document.getElementsByClassName("xz-tow")[0];
 
-fourThree.onclick = function(){
-  three.style.display="none"
+fourThree.onclick = function () {
+  three.style.display = "none"
 
 
   attAreat.classList.add("attAreatt");
 
-setTimeout(() => {
-  bOne.classList.add("bb-onet");
-},1000);
-setTimeout(() => {
-  bTow.classList.add("bb-towt");
-}, 2000);
-setTimeout(() => {
-  xzOne.style.opacity="1";
-  xzOne.classList.add("xz-onett");
-  xzTow.style.opacity="1";
-  xzTow.classList.add("xz-towtt");
-}, 3000);
+  setTimeout(() => {
+    bOne.classList.add("bb-onet");
+  }, 1000);
+  setTimeout(() => {
+    bTow.classList.add("bb-towt");
+  }, 2000);
+  setTimeout(() => {
+    xzOne.style.opacity = "1";
+    xzOne.classList.add("xz-onett");
+    xzTow.style.opacity = "1";
+    xzTow.classList.add("xz-towtt");
+  }, 3000);
 
 }
 
@@ -163,33 +163,33 @@ var btnImg = document.getElementsByClassName("btn-img")[0];
 var xzOne = document.getElementsByClassName("xz-one")[0];
 var four = document.getElementsByClassName("four")[0];
 
-xzOne.onclick = function(){
-four.style.display = "none"
+xzOne.onclick = function () {
+  four.style.display = "none"
 
-attAs.classList.add("attAreatst");
-setTimeout(() => {
-  sbImg.classList.add("sb-imgt");
-}, 1000);
-setTimeout(() => {
-  jdImg.classList.add("jd-imgt");
-}, 2000);
-setTimeout(() => {
-  rlImg.classList.add("rl-imgt");
-}, 3000);
-setTimeout(() => {
-  nyImg.classList.add("ny-imgt");
-}, 4000);
-setTimeout(() => {
-  mbjImg.classList.add("mbj-imgt");
-  yxImg.classList.add("yx-imgt");
-}, 5000);
+  attAs.classList.add("attAreatst");
+  setTimeout(() => {
+    sbImg.classList.add("sb-imgt");
+  }, 1000);
+  setTimeout(() => {
+    jdImg.classList.add("jd-imgt");
+  }, 2000);
+  setTimeout(() => {
+    rlImg.classList.add("rl-imgt");
+  }, 3000);
+  setTimeout(() => {
+    nyImg.classList.add("ny-imgt");
+  }, 4000);
+  setTimeout(() => {
+    mbjImg.classList.add("mbj-imgt");
+    yxImg.classList.add("yx-imgt");
+  }, 5000);
 
-setTimeout(() => {
-  btnImg.style.opacity="1";
-  btnImg.classList.add("btn-imgtt");
-}, 7000);
+  setTimeout(() => {
+    btnImg.style.opacity = "1";
+    btnImg.classList.add("btn-imgtt");
+  }, 7000);
 }
-btnImg.onclick=function(){
+btnImg.onclick = function () {
   four.style.display = "";
 }
 // 第六部分
@@ -206,7 +206,7 @@ var jxImg = document.getElementsByClassName("jx-img")[0];
 var five = document.getElementsByClassName("five")[0];
 
 
-xzTow.onclick = function(){
+xzTow.onclick = function () {
   four.style.display = "none"
   five.style.display = "none"
   setTimeout(() => {
@@ -224,7 +224,7 @@ xzTow.onclick = function(){
     cgImg.classList.add("cg-imgt");
   }, 3000);
   setTimeout(() => {
-    jxImg.style.opacity="1";
+    jxImg.style.opacity = "1";
     jxImg.classList.add("jx-imgt");
   }, 5000);
 }
@@ -237,22 +237,166 @@ var qyImg = document.getElementsByClassName("qy-img")[0];
 var qzImg = document.getElementsByClassName("qz-img")[0];
 var xxzImg = document.getElementsByClassName("xxz-img")[0];
 
-jxImg.onclick = function(){
-    six.style.display = "none";
-    setTimeout(() => {
-      rgYs.classList.add("right-yst")
-    }, 1000);
-    setTimeout(() => {
-      rwTh.classList.add("rw-threet")
-    }, 3000);
-    setTimeout(() => {
-      baImg.classList.add("bao-imgt")
-    }, 5000);
-    setTimeout(() => {
-      qyImg.classList.add("qy-imgt")
-      qzImg.classList.add("qz-imgt")
-    }, 7000);
-    setTimeout(() => {
-      xxzImg.classList.add("xxz-imgt")
-    }, 9000);
+// 第八部分
+var seven = document.getElementsByClassName("seven")[0];
+var snImg = document.getElementsByClassName("sn-img")[0];
+var dcImg = document.getElementsByClassName("dc-img")[0];
+var baoTow = document.getElementsByClassName("bao-tow")[0];
+var drX = document.getElementsByClassName("dr-x")[0];
+var drZt = document.getElementsByClassName("dr-zt")[0];
+var smX = document.getElementsByClassName("sm-x")[0];
+var smZt = document.getElementsByClassName("sm-zt")[0];
+var ccX = document.getElementsByClassName("cc-x")[0];
+var ccZt = document.getElementsByClassName("cc-zt")[0];
+var llX = document.getElementsByClassName("ll-x")[0];
+var llZt = document.getElementsByClassName("ll-zt")[0];
+var wdX = document.getElementsByClassName("wd-x")[0];
+var wdZt = document.getElementsByClassName("wd-zt")[0];
+
+//第九部分
+var eight = document.getElementsByClassName("eight")[0];
+var jkdImg = document.getElementsByClassName("jkd-img")[0];
+var jdhImg = document.getElementsByClassName("jdh-img")[0];
+var baoThree = document.getElementsByClassName("bao-three")[0];
+var baoFour = document.getElementsByClassName("bao-four")[0];
+var wxlImg = document.getElementsByClassName("wxl-img")[0];
+
+// 第十部分
+var nine = document.getElementsByClassName("nine")[0];
+var xkImg =document.getElementsByClassName("xk-img")[0];
+var zxImg =document.getElementsByClassName("zx-img")[0];
+var rwFour = document.getElementsByClassName("rw-four")[0];
+var zlImg =document.getElementsByClassName("zl-img")[0];
+var fxImg =document.getElementsByClassName("fx-img")[0];
+
+jxImg.onclick = function () {
+  six.style.display = "none";
+  setTimeout(() => {
+    rgYs.classList.add("right-yst")
+  }, 1000);
+  setTimeout(() => {
+    rwTh.classList.add("rw-threet")
+  }, 3000);
+  setTimeout(() => {
+    baImg.classList.add("bao-imgt")
+  }, 5000);
+  setTimeout(() => {
+    qyImg.classList.add("qy-imgt")
+    qzImg.classList.add("qz-imgt")
+  }, 7000);
+  setTimeout(() => {
+    xxzImg.classList.add("xxz-imgt")
+  }, 9000);
+  setTimeout(() => {
+    seven.style.display = "none";
+  }, 11000)
+  setTimeout(() => {
+    snImg.classList.add("sn-imgt")
+  }, 12500)
+  setTimeout(() => {
+    dcImg.classList.add("dc-imgt")
+  }, 14000)
+  setTimeout(() => {
+    baoTow.classList.add("bao-towt")
+  }, 15500)
+  setTimeout(() => {
+    drX.classList.add("dr-xt")
+  }, 17000)
+  setTimeout(() => {
+    drZt.classList.add("dr-ztt")
+  }, 18500)
+  setTimeout(() => {
+    smX.classList.add("dr-xt")
+  }, 20000)
+  setTimeout(() => {
+    smZt.classList.add("dr-ztt")
+  }, 21500)
+  setTimeout(() => {
+    ccX.classList.add("dr-xt")
+  }, 23000)
+  setTimeout(() => {
+    ccZt.classList.add("dr-ztt")
+  }, 24500)
+  setTimeout(() => {
+    llX.classList.add("dr-xt")
+  }, 26000)
+  setTimeout(() => {
+    llZt.classList.add("dr-ztt")
+  }, 27500)
+  setTimeout(() => {
+    wdX.classList.add("dr-xt")
+  }, 29000)
+  setTimeout(() => {
+    wdZt.classList.add("dr-ztt")
+  }, 30500)
+
+  //第九部分
+  setTimeout(() => {
+    eight.style.display = "none";
+  }, 32500)
+  setTimeout(() => {
+    jkdImg.classList.add("jkd-imgt");
+  }, 34000)
+  setTimeout(() => {
+    jdhImg.classList.add("jdh-imgt");
+  }, 35500)
+  setTimeout(() => {
+    baoFour.classList.add("bao-fourt");
+  }, 37000)
+  setTimeout(() => {
+    baoThree.classList.add("bao-threet");
+  }, 38500)
+  setTimeout(() => {
+    wxlImg.classList.add("wxl-imgt");
+  }, 40000)
+
+  // 第十部分
+  setTimeout(() => {
+    nine.style.display = "none";
+  }, 42000)
+  setTimeout(() => {
+    xkImg.classList.add("xk-imgt");
+  }, 43500)
+  setTimeout(() => {
+   zxImg.classList.add("zx-imgt");
+  }, 45000)
+  setTimeout(() => {
+    rwFour.classList.add("rw-fourt");
+   }, 46500)
+   setTimeout(() => {
+    zlImg.style.opacity='1';
+    zlImg.classList.add("btn-s");
+    fxImg.style.opacity='1';
+    fxImg.classList.add("btn-s");
+   }, 48000)
+}
+zlImg.onclick = function(){
+  one.style.display="";
+  tow.style.display="";
+  three.style.display="";
+  four.style.display="";
+  five.style.display="";
+  six.style.display="";
+  seven.style.display="";
+  eight.style.display="";
+  nine.style.display="";
+  zImg.classList.add('expanded');
+xImg.classList.add('down');
+setTimeout(() => {
+  mbImg.classList.add('start');
+  pOne.classList.add('p-onet');
+}, 2000);
+setTimeout(() => {
+  pTow.classList.add('p-towt');
+}, 3000);
+setTimeout(() => {
+  yzImg.classList.add('yz-imgt');
+}, 4000);
+setTimeout(() => {
+  rwImg.classList.add("rw-imgt");
+}, 5000);
+setTimeout(() => {
+  ksBtn.style.opacity = "1";
+  ksBtn.classList.add("anima");
+}, 6500);
 }

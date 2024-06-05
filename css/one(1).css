@@ -798,7 +798,9 @@ height: 46.23%;
 }
 .mbj-img{
   /* width: 100%; */
-  height: 20%;
+  /* height: 20%; */
+  width: 57.62%;
+  height: 16.5%;
   position: absolute;
   top: 25%;
   left: 20%;
@@ -812,7 +814,7 @@ height: 46.23%;
   height: 6.5%;
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 28%;
   opacity: 0;
 }
 .yx-imgt{
@@ -1047,4 +1049,315 @@ height: 46.23%;
 }
 .xxz-imgt{
   animation: showtow 2s ease-in-out forwards;
+}
+
+/* 第八部分 */
+.eight{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 92;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.attAreat-three {
+  width: 88.125%;
+  height: 88.492%;
+  position: relative;
+  /* opacity: 0; */
+}
+.bao-tow{
+  width: 63.65%;
+  height:49.89% ;
+  position: absolute;
+  top:43% ;
+  left: 20%;
+  opacity: 0;
+  
+}
+.bao-towt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.sn-img{
+  width:57.1%;
+  height:8.3% ;
+  position: absolute;
+  top:13% ;
+  left: 21%;
+  opacity: 0;
+  
+}
+.sn-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.dc-img{
+  width:28.55%;
+  height:4.82% ;
+  position: absolute;
+  top:3% ;
+  right:4%;
+  opacity: 0;
+  
+}
+.dc-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.dr-x{
+  width:1.42%;
+  height:12.67% ;
+  position: absolute;
+  top:45% ;
+  left:33%;
+  /* z-index: 2; */
+  opacity: 0;
+  
+}
+.dr-xt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.dr-ztt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.dr-zt{
+  width:19.5%;
+  height:2.35% ;
+  position: absolute;
+  top:42% ;
+  left:23%;
+  opacity: 0;
+  /* animation: showtow 2s ease-in-out forwards; */
+}
+
+.sm-x{
+  width:1.42%;
+  height:21.41% ;
+  position: absolute;
+  top:37% ;
+  left:42%;
+  opacity: 0;
+  /* animation: showtow 2s ease-in-out forwards; */
+}
+.sm-zt{
+  width:15.43%;
+  height:2.35% ;
+  position: absolute;
+  top:34% ;
+  left:35%;
+  opacity: 0;
+  /* animation: showtow 2s ease-in-out forwards; */
+}
+.cc-x{
+  width:1.42%;
+  height:29.26% ;
+  position: absolute;
+  top:45% ;
+  right: 27%;
+  opacity: 0;
+  /* animation: showtow 2s ease-in-out forwards; */
+}
+.cc-zt{
+  width:11.52%;
+  height:2.35% ;
+  position: absolute;
+  top:42% ;
+  right: 22%;
+  opacity: 0;
+  /* animation: showtow 2s ease-in-out forwards; */
+}
+.ll-x{
+  width:1.42%;
+  height:12.89%;
+  position: absolute;
+ bottom:10% ;
+ left: 26%;
+  opacity: 0;
+  /* animation: showtow 2s ease-in-out forwards; */
+}
+.ll-zt{
+  width:19.5%;
+  height:2.35% ;
+  position: absolute;
+  bottom:7% ;
+  left: 17%;
+  opacity: 0;
+  /* animation: showtow 2s ease-in-out forwards; */
+}
+.wd-x{
+  width:1.42%;
+  height:18.5%;
+  position: absolute;
+ bottom:8% ;
+ left: 45%;
+  opacity: 0;
+  /* animation: showtow 2s ease-in-out forwards; */
+}
+.wd-zt{
+  width:15.6%;
+  height:2.35% ;
+  position: absolute;
+  bottom:5% ;
+  left: 38%;
+  opacity: 0;
+  /* animation: showtow 2s ease-in-out forwards; */
+}
+/* 第九部分 */
+.nine{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 91;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.attAreat-four {
+  width: 88.125%;
+  height: 88.492%;
+  position: relative;
+  /* opacity: 0; */
+}
+.jkd-img{
+  width:57.1%;
+  height:8.3% ;
+  position: absolute;
+  top:13% ;
+  left: 21%;
+  opacity: 0;
+}
+.jkd-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.jdh-img{
+  width:28.55%;
+  height:4.82% ;
+  position: absolute;
+  top:3% ;
+  right:4%;
+  opacity: 0;
+}
+.jdh-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+.bao-three{
+  width:68.1%;
+  height:43.1% ;
+  position: absolute;
+  top:53.36% ;
+  left: 4%;
+  opacity: 0;
+}
+.bao-threet{
+  animation: enter-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+.bao-four{
+  width:43.43%;
+  height:27.47% ;
+  position: absolute;
+  top:28.81% ;
+  right: 4%;
+  opacity: 0;
+}
+.bao-fourt{
+  animation: enter-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(50px);
+}
+.wxl-img{
+  width:26.77%;
+  height:2.13% ;
+  position: absolute;
+  top:89.5% ;
+  left: 25%;
+  opacity: 0;
+}
+.wxl-imgt{
+  animation: showtow 2s ease-in-out forwards;
+}
+/* 第十部分 */
+.ten{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 90;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.attAreat-five {
+  width: 88.125%;
+  height: 88.492%;
+  position: relative;
+  /* opacity: 0; */
+}
+.xk-img{
+  width:26.6%;
+  height:33.85% ;
+  position: absolute;
+  top:4% ;
+  right: 6%;
+  opacity: 0;
+}
+.xk-imgt{
+  animation: enter-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(50px);
+}
+.zx-img{
+  width:13.83%;
+  height:25.67% ;
+  position: absolute;
+  top:4% ;
+  right:35%;
+  opacity: 0;
+}
+.zx-imgt{
+  animation: four-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateY(-50px);
+}
+.rw-four{
+  width:37.41%;
+  height:55.49% ;
+  position: absolute;
+  bottom: 12%;
+  left: 7%;
+  opacity: 0;
+}
+.rw-fourt{
+  animation: enter-x-right 1s ease-in-out 0.3s;
+  animation-fill-mode: forwards;
+  transform: translateX(-50px);
+}
+.zl-img{
+  width:30.67%;
+  height:6.73% ;
+  position: absolute;
+  top:57.62% ;
+  right:13.83%;
+  opacity: 0;
+}
+.fx-img{
+  width:30.67%;
+  height:6.73% ;
+  position: absolute;
+  bottom: 21.52%;
+  right:13.83%;
+  opacity: 0;
+}
+.btn-s{
+  animation-name: likes;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
 }
