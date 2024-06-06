@@ -1286,7 +1286,7 @@ height: 40.23%;
   display: flex;
   position: absolute;
   top: 0;
-  z-index: 100;
+  z-index: 90;
   background-color: #fff;
   justify-content: center;
   align-items: center;
@@ -1295,7 +1295,7 @@ height: 40.23%;
   width: 88.125%;
   height: 88.492%;
   position: relative;
-  /* opacity: 0; */
+  opacity: 0;
 }
 .xk-img{
   width:26.6%;
@@ -1303,7 +1303,7 @@ height: 40.23%;
   position: absolute;
   top:4% ;
   right: 6%;
-  /* opacity: 0; */
+  opacity: 0;
 }
 .xk-imgt{
   animation: enter-x-right 1s ease-in-out 0.3s;
@@ -1316,7 +1316,7 @@ height: 40.23%;
   position: absolute;
   top:4% ;
   right:35%;
-  /* opacity: 0; */
+  opacity: 0;
 }
 .zx-imgt{
   animation: four-x-right 1s ease-in-out 0.3s;
@@ -1329,7 +1329,7 @@ height: 40.23%;
   position: absolute;
   bottom: 18%;
   left: 7%;
-  /* opacity: 0; */
+  opacity: 0;
 }
 .rw-fourt{
   animation: enter-x-right 1s ease-in-out 0.3s;
@@ -1342,7 +1342,7 @@ height: 40.23%;
   position: absolute;
   top:51.62% ;
   right:7.83%;
-  /* opacity: 0; */
+  opacity: 0;
 }
 .fx-img{
   width:38.67%;
@@ -1350,7 +1350,7 @@ height: 40.23%;
   position: absolute;
   bottom: 21.52%;
   right:8.83%;
-  /* opacity: 0; */
+  opacity: 0;
 }
 .btn-s{
   animation-name: likes;
