@@ -380,23 +380,5 @@ zlImg.onclick = function(){
   seven.style.display="";
   eight.style.display="";
   nine.style.display="";
-  zImg.classList.add('expanded');
-xImg.classList.add('down');
-setTimeout(() => {
-  mbImg.classList.add('start');
-  pOne.classList.add('p-onet');
-}, 2000);
-setTimeout(() => {
-  pTow.classList.add('p-towt');
-}, 3000);
-setTimeout(() => {
-  yzImg.classList.add('yz-imgt');
-}, 4000);
-setTimeout(() => {
-  rwImg.classList.add("rw-imgt");
-}, 5000);
-setTimeout(() => {
-  ksBtn.style.opacity = "1";
-  ksBtn.classList.add("anima");
-}, 6500);
+  window.location.reload();
 }
