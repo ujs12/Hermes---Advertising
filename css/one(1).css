@@ -3,27 +3,11 @@
   padding: 0;
 }
 
-/* 设置根元素的字体大小，这样所有百分比字体大小都将基于此 */
-html {
-  font-size: 16px;
-  /* 你可以根据需要进行调整 */
+.imgheight{
+  height: 100%;
 }
-
-/* 你可以使用rem单位来基于根元素的字体大小设置字体 */
-body {
-  font-size: 1rem;
-  /* 这将等于html元素的字体大小，即16px */
-}
-
-
-
-/* 使用媒体查询来根据视口宽度调整根元素的字体大小，从而间接影响所有使用rem单位的字体大小 */
-@media (max-width: 600px) {
-  html {
-    font-size: 10px;
-    /* 在小屏幕上减小字体大小 */
-  }
-
+.imgwidth{
+width: 100%;
 }
 
 
@@ -66,7 +50,7 @@ ul {
 
 img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .one {
@@ -75,9 +59,11 @@ img {
   background-image: url(../images/1/beijing.jpg);
   background-size: cover;
   display: flex;
-  position: absolute;
+  /* position: absolute; */
+  flex-direction: column;
   z-index: 99;
 }
+
 
 /* 画卷 */
 .hj-left {
@@ -89,6 +75,7 @@ img {
   position: relative;
   margin-top: 7.93%;
   margin-left: 8.43%;
+  line-height: 0;
 }
 
 .s-img {
@@ -103,8 +90,8 @@ img {
   height: 0;
   overflow: hidden;
   /* height:88.2%; */
-  position: absolute;
-  top: 4.5%;
+  /* position: absolute; */
+  /* top: 4.5%; */
   transition: height 2s ease-in-out;
   /* left: 25px; */
 }
@@ -136,11 +123,11 @@ img {
 }
 
 .p-tow {
-width:31% ;
-height: 46.23%;
+width:32% ;
+height: 40.23%;
   position: absolute;
-  top: 40%;
-  left:55%;
+  top: 28%;
+  left:48%;
   /* display: none; */
   /* visibility:initial; */
   /* visibility: hidden; */
@@ -168,8 +155,8 @@ height: 46.23%;
 .yz-img {
   width: 10%;
   position: absolute;
-  top: 25%;
-  left: 80%;
+  top: 18%;
+  left: 70%;
   /* display: none;
     transform: top 1s ease-in-out  ; */
   opacity: 0;
@@ -270,10 +257,13 @@ height: 46.23%;
 /* 开始 */
 .ks-btn {
   align-self: flex-end;
-  width: 45%;
-  /* height: 6.25%; */
-  margin-left: -13.125%;
-  margin-bottom: 30%;
+  width: 50%;
+  height: 6.25%;
+  /* margin-left: -25.125%;
+  margin-bottom: 30%; */
+  position: absolute;
+  top: 50%;
+  left: 20%;
   opacity: 0;
 }
 
@@ -307,13 +297,22 @@ height: 46.23%;
     transform: scale(1);
   }
 }
+.bottom-bf{
+  width: 100%;
+  height: 50%;
+  position: relative;
+  margin-top: 20%;
+}
 
 /* 人物 */
 .rw-img {
   width: 32.66%;
-  /* height: 47.123%; */
+  height: 47.123%;
   align-self: flex-end;
-  margin-bottom: 20%;
+  position: absolute;
+  /* top: 10%; */
+   top: 0;
+   right: 1%;
   opacity: 0;
 }
 .rw-imgt{
@@ -345,7 +344,7 @@ height: 46.23%;
 /* 图片 */
 .one-img {
   width: 100%;
-  height: 40.135%;
+  height: 40%;
   opacity: 0;
 }
 .one-imgt{
@@ -432,10 +431,10 @@ height: 46.23%;
 
 .rw-tow {
   width: 38.72%;
-  height: 59.87%;
+  height: 55.87%;
   position: absolute;
   top: 6.95%;
-  left: 6.03%;
+  left: 5.03%;
   z-index: 1;
   opacity: 0;
   
@@ -458,7 +457,7 @@ height: 46.23%;
   top: 50%;
   left: 35.82%;
   z-index: 1;
-  opacity: 0;
+  /* opacity: 0; */
  
 }
 .zt-imgt{
@@ -613,10 +612,10 @@ height: 46.23%;
   transform: translateX(-50px);
 }
 .four-bf-three{
-  width: 35.44%;
+  width: 50%;
   /* height: ; */
   position: absolute;
-  top: 63%;
+  top: 55%;
   left: 30%;
   opacity: 0;
 }
@@ -632,9 +631,9 @@ height: 46.23%;
 
 .five-bf{
   width:41.31% ;
-  height:30.05% ;
+  height:28.05% ;
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 56%;
   z-index: 2;
   opacity: 0;
@@ -670,9 +669,9 @@ height: 46.23%;
 }
 .bb-one{
   width: 28.02%;
-  height: 18.95%;
+  height: 17.95%;
   position: absolute;
-  top: 49.5%;
+  top: 50.5%;
   left: 13%;
   opacity: 0;
  
@@ -683,9 +682,9 @@ height: 46.23%;
 
 .bb-tow{
   width: 30.67%;
-  height: 24.78%;
+  height: 22.78%;
   position: absolute;
-  top: 44%;
+  top: 46%;
   left: 55%;
   opacity: 0;
   
@@ -694,8 +693,8 @@ height: 46.23%;
   animation: showtow 2s ease-in-out forwards;
 }
 .xz-one{
-  width: 30%;
-  height: 10.5%;
+  width: 26%;
+  height: 6.5%;
   position: absolute;
   top: 73%;
   left: 14%;
@@ -714,8 +713,8 @@ height: 46.23%;
 }
 
 .xz-tow{
-  width: 30%;
-  height: 10.5%;
+  width: 26%;
+  height: 6.5%;
   position: absolute;
   top: 73%;
   left: 58%;
@@ -753,8 +752,8 @@ height: 46.23%;
   animation: showtow 2s ease-in-out forwards;
 }
 .sb-img{
-  width: 50%;
-  height: 30%;
+  width: 49%;
+  height: 28%;
   position: absolute;
   top: 65%;
   left: 25%;
@@ -799,7 +798,7 @@ height: 46.23%;
 .mbj-img{
   /* width: 100%; */
   /* height: 20%; */
-  width: 57.62%;
+  width: 61.62%;
   height: 16.5%;
   position: absolute;
   top: 25%;
@@ -814,15 +813,15 @@ height: 46.23%;
   height: 6.5%;
   position: absolute;
   top: 30%;
-  left: 28%;
+  left: 29%;
   opacity: 0;
 }
 .yx-imgt{
   animation: showtow 2s ease-in-out forwards;
 }
 .btn-img{
-  width: 30%;
-  height: 9.49%;
+  width: 31%;
+  height: 7.49%;
   position: absolute;
   top: 38%;
   left: 35%;
@@ -843,7 +842,7 @@ height: 46.23%;
   display: flex;
   position: absolute;
   top: 0;
-  z-index: 94;
+  z-index: 95;
   background-color: #fff;
   justify-content: center;
   align-items: center;
@@ -854,7 +853,7 @@ height: 46.23%;
   position: relative;
 }
 .cr-img{
-  width: 43.26%;
+  width: 48.26%;
   height: 46.75%;
   position: absolute;
   top: 50%;
@@ -865,10 +864,10 @@ height: 46.23%;
   animation: showtow 2s ease-in-out forwards;
 }
 .mb-tow{
-  width: 57.62%;
-  height: 16.5%;
+  width: 58.62%;
+  height: 17.5%;
   position: absolute;
-  top: 25%;
+  top: 23%;
   left: 20%;
  opacity: 0;
 }
@@ -880,19 +879,19 @@ height: 46.23%;
   width: 44.15%;
   height: 6.5%;
   position: absolute;
-  top: 30%;
-  left: 25%;
+  top: 29%;
+  left: 28%;
   opacity: 0;
 }
 .cg-imgt{
   animation: showtow 2s ease-in-out forwards;
 }
 .jx-img{
-  width: 20%;
+  /* width: 20%; */
   height: 8%;
   position: absolute;
-  top: 37%;
-  left: 38.5%;
+  top: 38%;
+  left: 34.5%;
   opacity: 0;
 }
 .jx-imgt{
@@ -962,7 +961,7 @@ height: 46.23%;
   display: flex;
   position: absolute;
   top: 0;
-  z-index: 93;
+  z-index: 94;
   background-color: #fff;
   justify-content: center;
   align-items: center;
@@ -1287,7 +1286,7 @@ height: 46.23%;
   display: flex;
   position: absolute;
   top: 0;
-  z-index: 90;
+  z-index: 100;
   background-color: #fff;
   justify-content: center;
   align-items: center;
@@ -1304,7 +1303,7 @@ height: 46.23%;
   position: absolute;
   top:4% ;
   right: 6%;
-  opacity: 0;
+  /* opacity: 0; */
 }
 .xk-imgt{
   animation: enter-x-right 1s ease-in-out 0.3s;
@@ -1317,7 +1316,7 @@ height: 46.23%;
   position: absolute;
   top:4% ;
   right:35%;
-  opacity: 0;
+  /* opacity: 0; */
 }
 .zx-imgt{
   animation: four-x-right 1s ease-in-out 0.3s;
@@ -1326,11 +1325,11 @@ height: 46.23%;
 }
 .rw-four{
   width:37.41%;
-  height:55.49% ;
+  height:45.49% ;
   position: absolute;
-  bottom: 12%;
+  bottom: 18%;
   left: 7%;
-  opacity: 0;
+  /* opacity: 0; */
 }
 .rw-fourt{
   animation: enter-x-right 1s ease-in-out 0.3s;
@@ -1338,20 +1337,20 @@ height: 46.23%;
   transform: translateX(-50px);
 }
 .zl-img{
-  width:30.67%;
-  height:6.73% ;
+  width:38.67%;
+  height:7.73% ;
   position: absolute;
-  top:57.62% ;
-  right:13.83%;
-  opacity: 0;
+  top:51.62% ;
+  right:7.83%;
+  /* opacity: 0; */
 }
 .fx-img{
-  width:30.67%;
-  height:6.73% ;
+  width:38.67%;
+  height:9.73% ;
   position: absolute;
   bottom: 21.52%;
-  right:13.83%;
-  opacity: 0;
+  right:8.83%;
+  /* opacity: 0; */
 }
 .btn-s{
   animation-name: likes;

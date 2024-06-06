@@ -63,7 +63,7 @@ var fourThree = document.getElementsByClassName("four-bf-three")[0]
 
 // window.addEventListener('load', function() {
 ksBtn.onclick = function () {
-  // console.log(1);
+  
   one.style.display = 'none';
 
   oneImg.classList.add('one-imgt');
@@ -72,55 +72,55 @@ ksBtn.onclick = function () {
   setTimeout(() => {
     towImg.classList.add('tow-imgt');
 
-  }, 2000);
+  }, 1000);
   setTimeout(() => {
     rwTow.classList.add('rw-towt');
 
-  }, 3500);
+  }, 2000);
   setTimeout(() => {
     ztImg.classList.add('zt-imgt');
 
-  }, 5000);
+  },3000);
   setTimeout(() => {
     threeImg.classList.add('three-imgt');
 
-  }, 6500);
+  }, 4000);
   setTimeout(() => {
     fourImg.classList.add('four-imgt');
-  }, 8000);
+  }, 5000);
   setTimeout(() => {
     tow.style.display = "none";
     oneOne.classList.add("one-bf-onet")
-  }, 10000);
+  }, 7000);
 
   setTimeout(() => {
     oneTow.classList.add("one-bf-towt")
-  }, 11500);
+  }, 8000);
   setTimeout(() => {
     fiveBf.classList.add("five-bft")
-  }, 13000);
+  }, 9000);
 
   setTimeout(() => {
     towBf.classList.add("tow-bft")
-  }, 14500);
+  }, 10000);
 
   setTimeout(() => {
     threeOne.classList.add("three-bf-onet")
-  }, 16000);
+  }, 11000);
   setTimeout(() => {
     threeTow.classList.add("three-bf-towt")
-  }, 17500);
+  }, 12000);
   setTimeout(() => {
     fourOne.classList.add("four-bf-onet")
-  }, 19000);
+  }, 13000);
   setTimeout(() => {
     fourTow.classList.add("four-bf-towt")
-  }, 20500);
+  }, 14000);
 
   setTimeout(() => {
     fourThree.style.opacity = "1";
     fourThree.classList.add("four-bf-threet")
-  }, 22000);
+  }, 15000);
 
 }
 
@@ -276,99 +276,99 @@ jxImg.onclick = function () {
   }, 1000);
   setTimeout(() => {
     rwTh.classList.add("rw-threet")
-  }, 3000);
+  }, 2500);
   setTimeout(() => {
     baImg.classList.add("bao-imgt")
-  }, 5000);
+  }, 4000);
   setTimeout(() => {
     qyImg.classList.add("qy-imgt")
     qzImg.classList.add("qz-imgt")
-  }, 7000);
+  }, 5500);
   setTimeout(() => {
     xxzImg.classList.add("xxz-imgt")
-  }, 9000);
+  }, 7000);
   setTimeout(() => {
     seven.style.display = "none";
-  }, 11000)
+  }, 8500)
   setTimeout(() => {
     snImg.classList.add("sn-imgt")
-  }, 12500)
+  }, 10000)
   setTimeout(() => {
     dcImg.classList.add("dc-imgt")
-  }, 14000)
+  }, 11500)
   setTimeout(() => {
     baoTow.classList.add("bao-towt")
-  }, 15500)
+  }, 13000)
   setTimeout(() => {
     drX.classList.add("dr-xt")
-  }, 17000)
+  }, 14000)
   setTimeout(() => {
     drZt.classList.add("dr-ztt")
-  }, 18500)
+  }, 15000)
   setTimeout(() => {
     smX.classList.add("dr-xt")
-  }, 20000)
+  }, 16000)
   setTimeout(() => {
     smZt.classList.add("dr-ztt")
-  }, 21500)
+  }, 17000)
   setTimeout(() => {
     ccX.classList.add("dr-xt")
-  }, 23000)
+  }, 18000)
   setTimeout(() => {
     ccZt.classList.add("dr-ztt")
-  }, 24500)
+  }, 19000)
   setTimeout(() => {
     llX.classList.add("dr-xt")
-  }, 26000)
+  }, 20000)
   setTimeout(() => {
     llZt.classList.add("dr-ztt")
-  }, 27500)
+  }, 21000)
   setTimeout(() => {
     wdX.classList.add("dr-xt")
-  }, 29000)
+  }, 22000)
   setTimeout(() => {
     wdZt.classList.add("dr-ztt")
-  }, 30500)
+  }, 23000)
 
   //第九部分
   setTimeout(() => {
     eight.style.display = "none";
-  }, 32500)
+  }, 25000)
   setTimeout(() => {
     jkdImg.classList.add("jkd-imgt");
-  }, 34000)
+  }, 26000)
   setTimeout(() => {
     jdhImg.classList.add("jdh-imgt");
-  }, 35500)
+  }, 27000)
   setTimeout(() => {
     baoFour.classList.add("bao-fourt");
-  }, 37000)
+  }, 28000)
   setTimeout(() => {
     baoThree.classList.add("bao-threet");
-  }, 38500)
+  }, 29000)
   setTimeout(() => {
     wxlImg.classList.add("wxl-imgt");
-  }, 40000)
+  }, 30000)
 
   // 第十部分
   setTimeout(() => {
     nine.style.display = "none";
-  }, 42000)
+  }, 32000)
   setTimeout(() => {
     xkImg.classList.add("xk-imgt");
-  }, 43500)
+  }, 33000)
   setTimeout(() => {
    zxImg.classList.add("zx-imgt");
-  }, 45000)
+  }, 34000)
   setTimeout(() => {
     rwFour.classList.add("rw-fourt");
-   }, 46500)
+   }, 35000)
    setTimeout(() => {
     zlImg.style.opacity='1';
     zlImg.classList.add("btn-s");
     fxImg.style.opacity='1';
     fxImg.classList.add("btn-s");
-   }, 48000)
+   }, 36000)
 }
 zlImg.onclick = function(){
   one.style.display="";
