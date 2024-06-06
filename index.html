@@ -1,107 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>徐霞客游记</title>
 
-    <link rel="stylesheet" href="./css/one(1).css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>徐霞客游记</title>
 
-  <body>
-    <div class="bigbox">
-      <div class="max">
-        <!-- 画卷 -->
-        <ul>
-          <li class="one">
-            <!-- 卷轴 -->
-            <div class="hj-left">
-              <div class="s-img">
-                <img src="./images/juanz/juanz/s.png" alt="" class="imgwidth imgheight" />
-              </div>
-              <div class="z-img">
-                <img src="./images/juanz/juanz/z.png" alt="" />
-                <div class="p-one ">
-                  <img src="./images/1(2)/1/zi1.png" alt="" class="imgheight">
+  <link rel="stylesheet" href="./css/one(1).css" />
+</head>
+
+<body>
+  <div class="bigbox">
+    <div class="max">
+       <div class="music" id="music">
+         <div class="music_img">
+           <div class="music_img_page" onclick="toggleMusic()">
+            <img src="./images/musc.png" alt="">
+             <!-- 禁止音乐 -->
+               <div class="music_img_page_stop" id="music_img_page_stop"></div>
+               </div>
+               <div class=" music_img_audio">
+                 <audio id="bgMusic" src="./music/3.mp3" loop autoplay></audio>
                 </div>
-                <div class="p-tow">
-                 <img src="./images/1(2)/1/zi2.png" alt="" class="imgheight">
-                </div>
-                <div class="yz-img">
-                  <img src="./images/1(2)/1/yingzhang.png" alt="" class="imgwidth"/>
-                </div>
+               </div>
+                </div>
+      <!-- 画卷 -->
+      <ul>
+        <li class="one">
+          <!-- 卷轴 -->
+          <div class="hj-left">
+            <div class="s-img">
+              <img src="./images/juanz/juanz/s.png" alt="" class="imgwidth imgheight" />
+            </div>
+            <div class="z-img">
+              <img src="./images/juanz/juanz/z.png" alt="" />
+              <div class="p-one ">
+                <img src="./images/1(2)/1/zi1.png" alt="" class="imgheight">
               </div>
-              <!-- 改：毛笔结构 -->
-              <div class="mb-img">
-                <img src="./images/1(2)/1/maobi.png" alt="" class="imgwidth" />
+              <div class="p-tow">
+                <img src="./images/1(2)/1/zi2.png" alt="" class="imgheight">
               </div>
-              <div class="x-img">
-                <img src="./images/juanz/juanz/x.png" alt="" class="imgwidth" />
+              <div class="yz-img">
+                <img src="./images/1(2)/1/yingzhang.png" alt="" class="imgwidth" />
               </div>
             </div>
-            <!-- 开始按钮 -->
-            <div class="bottom-bf">
+            <!-- 改：毛笔结构 -->
+            <div class="mb-img">
+              <img src="./images/1(2)/1/maobi.png" alt="" class="imgwidth" />
+            </div>
+            <div class="x-img">
+              <img src="./images/juanz/juanz/x.png" alt="" class="imgwidth" />
+            </div>
+          </div>
+          <!-- 开始按钮 -->
+          <div class="bottom-bf">
             <div class="ks-btn">
-              <img src="./images/1(2)/1/kaishi.png" alt=""  />
+              <img src="./images/1(2)/1/kaishi.png" alt="" />
             </div>
             <!-- 人物 -->
             <div class="rw-img">
-              <img src="./images/1(2)/1/renwu.png" alt="" class="imgwidth"/>
+              <img src="./images/1(2)/1/renwu.png" alt="" class="imgwidth" />
             </div>
           </div>
-          </li>
+        </li>
 
-          <!-- 第二部分 -->
-          <li class="tow">
-            <div class="attArea">
-                  <!-- 第一块图 -->
-                  <div class="one-img">
-                    <img src="./images/2/1.png" alt="" class=" imgheight
+        <!-- 第二部分 -->
+        <li class="tow">
+          <div class="attArea">
+            <!-- 第一块图 -->
+            <div class="one-img">
+              <img src="./images/2/1.png" alt="" class=" imgheight
                       ">
-                  </div>
-                  <div class="tow-img ">
-                    <img src="./images/2/2.png" alt="" class="imgheight">
-                  </div>
-                  <div class="three-img">
-                    <img src="./images/2/3.png" alt="" class="imgheight">
-                  </div>
-                  <div class="four-img">
-                    <img src="./images/2/4.png" alt="" class="imgheight">
-                  </div>
-                  <div class="rw-tow">
-                    <img src="./images/2/rw.png" alt="" class="imgheight">
-                  </div>
-                  <div class="zt-img">
-                    <img src="./images/2/zi.png" alt="" class="imgheight">
-                  </div>
             </div>
-          </li>
+            <div class="tow-img ">
+              <img src="./images/2/2.png" alt="" class="imgheight">
+            </div>
+            <div class="three-img">
+              <img src="./images/2/3.png" alt="" class="imgheight">
+            </div>
+            <div class="four-img">
+              <img src="./images/2/4.png" alt="" class="imgheight">
+            </div>
+            <div class="rw-tow">
+              <img src="./images/2/rw.png" alt="" class="imgheight">
+            </div>
+            <div class="zt-img">
+              <img src="./images/2/zi.png" alt="" class="imgheight">
+            </div>
+          </div>
+        </li>
 
-          <!-- 第三部分 -->
-          <li class="three">
-            <div class="attArea">
-              <div class="one-bf">
-                <div class="one-bf-one">
-                  <img src="./images/3/3/1.png" alt="" class="imgheight">
-                </div>
-                <div class="one-bf-tow">
-                  <img src="./images/3/3/zi2.png" alt="" class="imgheight">
-                </div>
+        <!-- 第三部分 -->
+        <li class="three">
+          <div class="attArea">
+            <div class="one-bf">
+              <div class="one-bf-one">
+                <img src="./images/3/3/1.png" alt="" class="imgheight">
               </div>
-              <div class="tow-bf">
-                <img src="./images/3/3/2.png" alt="" class="imgheight">
+              <div class="one-bf-tow">
+                <img src="./images/3/3/zi2.png" alt="" class="imgheight">
               </div>
-              <div class="three-bf">
-                <div class="three-bf-one">
+            </div>
+            <div class="tow-bf">
+              <img src="./images/3/3/2.png" alt="" class="imgheight">
+            </div>
+            <div class="three-bf">
+              <div class="three-bf-one">
                 <img src="./images/3/3/3.png" alt="" class="imgheight">
                 <div class="three-bf-tow">
-                  <img src="./images/3/3/zi1.png" alt=""class="imgheight">
+                  <img src="./images/3/3/zi1.png" alt="" class="imgheight">
+                </div>
               </div>
-              </div>
-             
-              </div>
-              <div class="four-bf">
-                <div class="four-bf-one">
+
+            </div>
+            <div class="four-bf">
+              <div class="four-bf-one">
                 <img src="./images/3/3/4.png" alt="" class="imgheight">
                 <div class="four-bf-tow">
                   <img src="./images/3/3/fadajing.png" alt="" class="imgheight">
@@ -110,202 +123,204 @@
                   <img src="./images/3/3/btn.png" alt="" class="imgheight">
                 </div>
               </div>
-              </div>
-              <div class="five-bf">
-                <img src="./images/3/3/rw.png" alt="" class="imgheight">
-              </div>
             </div>
-          </li>
-
-          <!-- 第四部分 -->
-          <li class="four">
-            <div class="attAreat">
-              <img src="./images/4/4/bj.png" alt="" class="imgheight">
-              <div class="bb-one">
-                <img src="./images/4/4/bao1.png" alt="" class="imgheight">
-              </div>
-              <div class="xz-one">
-                <img src="./images/4/4/xuanze.png" alt="" class="imgheight">
-              </div>
-              <div class="bb-tow">
-                <img src="./images/4/4/bao2.png" alt="" class="imgheight">
-              </div>
-              <div class="xz-tow">
-                <img src="./images/4/4/xuanze.png" alt="" class="imgheight">
-              </div>
+            <div class="five-bf">
+              <img src="./images/3/3/rw.png" alt="" class="imgheight">
             </div>
-          </li>
+          </div>
+        </li>
 
-          <!-- 第五部分 -->
-          <li class="five">
-            <div class="attAreats">
-              <img src="./images/5/5/1.png" alt="" class="imgheight">
-              <div class="sb-img">
-                <img src="./images/5/5/shubao.png" alt="" class="imgheight">
-              </div>
-              <div class="jd-img">
-                <img src="./images/5/5/jdz.png" alt="" class="imgheight">
-              </div>
-              <div class="rl-img">
-                <img src="./images/5/5/rlx.png" alt="" class="imgheight">
-              </div>
-              <div class="ny-img">
-                <img src="./images/5/5/bny.png" alt="" class="imgheight">
-              </div>
-              <div class="mbj-img">
-                <img src="./images/6/6/mb.png" alt="" class="imgheight">
-              </div>
-              <div class="yx-img">
-                <img src="./images/5/5/yxsb.png" alt="" class="imgheight">
-              </div>
-              <div class="btn-img">
-                <img src="./images/5/5/btn.png" alt="" class="imgheight">
-              </div>
+        <!-- 第四部分 -->
+        <li class="four">
+          <div class="attAreat">
+            <img src="./images/4/4/bj.png" alt="" class="imgheight">
+            <div class="bb-one">
+              <img src="./images/4/4/bao1.png" alt="" class="imgheight">
             </div>
-          </li>
-
-          <!-- 第六部分 -->
-          <li class="six">
-            <div class="attAreat-one">
-              <img src="./images/6/6/bj.png" alt="" class="imgheight">
-              <div class="cr-img">
-                <img src="./images/6/6/rw.png" alt="" class="imgheight">
-              </div>
-              <div class="mb-tow">
-                <img src="./images/6/6/mb.png" alt="" class="imgheight">
-              </div>
-              <div class="cg-img">
-                <img src="./images/6/6/yxcg.png" alt="" class="imgheight">
-              </div>
-              <div class="jx-img">
-                <img src="./images/6/6/jx.png" alt="" class="imgheight">
-              </div>
-              <div class="xx-max">
-                <img src="./images/6/6/d.png" alt="" class="imgheight">
-              </div>
-              <div class="xx-min left-xx" ><img src="./images/6/6/x.png" alt="" class="imgheight"></div>
-              <div class="xx-min left-sx"><img src="./images/6/6/x.png" alt="" class="imgheight"></div>
-              <div class="xx-min right-xx"><img src="./images/6/6/x.png" alt="" class="imgheight"></div>
+            <div class="xz-one">
+              <img src="./images/4/4/xuanze.png" alt="" class="imgheight">
             </div>
-          </li>
-
-          <!-- 第七部分 -->
-          <li class="seven">
-            <div class="attAreat-tow">
-              <img src="./images/7/7/bj.png" alt="" class="imgheight">
-              <div class="right-ys">
-                <img src="./images/7/7/yun.png" alt="" class="imgheight">
-              </div>
-              <div class="qy-img">
-                <img src="./images/7/7/qzwg.png" alt="" class="imgheight">
-              </div>
-              <div class="bao-img">
-                <img src="./images/7/7/bao.png" alt="" class="imgheight">
-              </div>
-              <div class="xxz-img">
-                <img src="./images/7/7/bxxz.png" alt="" class="imgheight">
-              </div>
-              <div class="rw-three">
-                <img src="./images/7/7/rw.png" alt="" class="imgheight">
-              </div>
-              <div class="qz-img">
-                <img src="./images/7/7/qinz.png" alt="" class="imgheight">
-              </div>
+            <div class="bb-tow">
+              <img src="./images/4/4/bao2.png" alt="" class="imgheight">
             </div>
-          </li>
-          <!-- 第八部分 -->
-          <li class="eight">
-            <div class="attAreat-three">
-              <img src="./images/8/8/bj.png" alt="" class="imgheight">
-              <div class="bao-tow">
-                <img src="./images/8/8/bao.png" alt="" class="imgheight">
-              </div>
-              <div class="sn-img">
-                <img src="./images/11/11/8/fqsn.png" alt="" class="imgheight">
-              </div>
-              <div class="dc-img">
-                <img src="./images/11/11/8/dgcfq.png" alt="" class="imgheight">
-              </div>
-              <div class="dr-zt">
-                <img src="./images/8/8/zd.png" alt="" class="imgheight">
-              </div>
-              <div class="dr-x">
-                <img src="./images/8/8/zd1.png" alt="" class="imgheight">
-              </div>
-              <div class="sm-zt">
-                <img src="./images/8/8/sm.png" alt="" class="imgheight">
-              </div>
-              <div class="sm-x">
-                <img src="./images/8/8/sm1.png" alt="" class="imgheight">
-              </div>
-              <div class="cc-zt">
-                <img src="./images/8/8/cd.png" alt="" class="imgheight">
-              </div>
-              <div class="cc-x">
-                <img src="./images/8/8/cd1.png" alt="" class="imgheight">
-              </div>
-              <div class="ll-zt">
-                <img src="./images/8/8/lld.png" alt="" class="imgheight">
-              </div>
-              <div class="ll-x">
-                <img src="./images/8/8/lld1.png" alt="" class="imgheight">
-              </div>
-              <div class="wd-zt">
-                <img src="./images/8/8/wd.png" alt="" class="imgheight">
-              </div>
-              <div class="wd-x">
-                <img src="./images/8/8/wd1.png" alt="" class="imgheight">
-              </div>
-              </div>
-          </li>
+            <div class="xz-tow">
+              <img src="./images/4/4/xuanze.png" alt="" class="imgheight">
+            </div>
+          </div>
+        </li>
 
-          <!-- 第九部分 -->
-          <li class="nine">
-            <div class="attAreat-four">
-              <img src="./images/8/8/bj.png" alt="" class="imgheight">
-              <div class="jkd-img">
-                <img src="./images/11/11/9/jk.png" alt="" class="imgheight">
-              </div>
-              <div class="jdh-img">
-                <img src="./images/11/11/9/jkjh.png" alt="" class="imgheight">
-              </div>
-              <div class="bao-three">
-                <img src="./images/11/11/9/bao.png" alt="" class="imgheight">
-              </div>
-              <div class="bao-four">
-                <img src="./images/11/11/9/bao2.png" alt="" class="imgheight">
-              </div>
-              <div class="wxl-img">
-                <img src="./images/11/11/9/htwy.png" alt="" class="imgheight">
-              
-              </div>
-              </div>
-          </li>
-          <!-- 第十部分 -->
-          <li class="ten">
-            <div class="attAreat-five">
-              <img src="./images/11/11/10/bj.png" alt=""class="imgheight">
-              <div class="xk-img">
-                <img src="./images/11/11/10/xk.png" alt="" class="imgheight">
-              </div>
-              <div class="zx-img">
-                <img src="./images/11/11/10/zx.png" alt="" class="imgheight">
-              </div>
-              <div class="rw-four">
-                <img src="./images/11/11/10/rw.png" alt="" class="imgheight">
-              </div>
-              <div class="zl-img">
-                <img src="./images/11/11/10/zl.png" alt="" class="imgheight">
-              </div>
-              <div class="fx-img">
-                <a href="https://re.jd.com/search?keyword=%e7%88%b1%e5%8d%8e%e4%bb%95%e7%9a%84%e5%8c%85&keywordid=340403852742&re_dcp=202m0QjIIg==&traffic_source=1004&enc=utf8&cu=true&utm_source=baidu-search&utm_medium=cpc&utm_campaign=t_262767352_baidusearch&utm_term=340403852742_0_fe30c7e0af7946ae845136d29cdbdbf0">
-                  <img src="./images/11/11/10/fx1.png" alt="">
-                </a>
-              </div>
-              </div>
-        </ul>
-      </div>
+        <!-- 第五部分 -->
+        <li class="five">
+          <div class="attAreats">
+            <img src="./images/5/5/1.png" alt="" class="imgheight">
+            <div class="sb-img">
+              <img src="./images/5/5/shubao.png" alt="" class="imgheight">
+            </div>
+            <div class="jd-img">
+              <img src="./images/5/5/jdz.png" alt="" class="imgheight">
+            </div>
+            <div class="rl-img">
+              <img src="./images/5/5/rlx.png" alt="" class="imgheight">
+            </div>
+            <div class="ny-img">
+              <img src="./images/5/5/bny.png" alt="" class="imgheight">
+            </div>
+            <div class="mbj-img">
+              <img src="./images/6/6/mb.png" alt="" class="imgheight">
+            </div>
+            <div class="yx-img">
+              <img src="./images/5/5/yxsb.png" alt="" class="imgheight">
+            </div>
+            <div class="btn-img">
+              <img src="./images/5/5/btn.png" alt="" class="imgheight">
+            </div>
+          </div>
+        </li>
+
+        <!-- 第六部分 -->
+        <li class="six">
+          <div class="attAreat-one">
+            <img src="./images/6/6/bj.png" alt="" class="imgheight">
+            <div class="cr-img">
+              <img src="./images/6/6/rw.png" alt="" class="imgheight">
+            </div>
+            <div class="mb-tow">
+              <img src="./images/6/6/mb.png" alt="" class="imgheight">
+            </div>
+            <div class="cg-img">
+              <img src="./images/6/6/yxcg.png" alt="" class="imgheight">
+            </div>
+            <div class="jx-img">
+              <img src="./images/6/6/jx.png" alt="" class="imgheight">
+            </div>
+            <div class="xx-max">
+              <img src="./images/6/6/d.png" alt="" class="imgheight">
+            </div>
+            <div class="xx-min left-xx"><img src="./images/6/6/x.png" alt="" class="imgheight"></div>
+            <div class="xx-min left-sx"><img src="./images/6/6/x.png" alt="" class="imgheight"></div>
+            <div class="xx-min right-xx"><img src="./images/6/6/x.png" alt="" class="imgheight"></div>
+          </div>
+        </li>
+
+        <!-- 第七部分 -->
+        <li class="seven">
+          <div class="attAreat-tow">
+            <img src="./images/7/7/bj.png" alt="" class="imgheight">
+            <div class="right-ys">
+              <img src="./images/7/7/yun.png" alt="" class="imgheight">
+            </div>
+            <div class="qy-img">
+              <img src="./images/7/7/qzwg.png" alt="" class="imgheight">
+            </div>
+            <div class="bao-img">
+              <img src="./images/7/7/bao.png" alt="" class="imgheight">
+            </div>
+            <div class="xxz-img">
+              <img src="./images/7/7/bxxz.png" alt="" class="imgheight">
+            </div>
+            <div class="rw-three">
+              <img src="./images/7/7/rw.png" alt="" class="imgheight">
+            </div>
+            <div class="qz-img">
+              <img src="./images/7/7/qinz.png" alt="" class="imgheight">
+            </div>
+          </div>
+        </li>
+        <!-- 第八部分 -->
+        <li class="eight">
+          <div class="attAreat-three">
+            <img src="./images/8/8/bj.png" alt="" class="imgheight">
+            <div class="bao-tow">
+              <img src="./images/8/8/bao.png" alt="" class="imgheight">
+            </div>
+            <div class="sn-img">
+              <img src="./images/11/11/8/fqsn.png" alt="" class="imgheight">
+            </div>
+            <div class="dc-img">
+              <img src="./images/11/11/8/dgcfq.png" alt="" class="imgheight">
+            </div>
+            <div class="dr-zt">
+              <img src="./images/8/8/zd.png" alt="" class="imgheight">
+            </div>
+            <div class="dr-x">
+              <img src="./images/8/8/zd1.png" alt="" class="imgheight">
+            </div>
+            <div class="sm-zt">
+              <img src="./images/8/8/sm.png" alt="" class="imgheight">
+            </div>
+            <div class="sm-x">
+              <img src="./images/8/8/sm1.png" alt="" class="imgheight">
+            </div>
+            <div class="cc-zt">
+              <img src="./images/8/8/cd.png" alt="" class="imgheight">
+            </div>
+            <div class="cc-x">
+              <img src="./images/8/8/cd1.png" alt="" class="imgheight">
+            </div>
+            <div class="ll-zt">
+              <img src="./images/8/8/lld.png" alt="" class="imgheight">
+            </div>
+            <div class="ll-x">
+              <img src="./images/8/8/lld1.png" alt="" class="imgheight">
+            </div>
+            <div class="wd-zt">
+              <img src="./images/8/8/wd.png" alt="" class="imgheight">
+            </div>
+            <div class="wd-x">
+              <img src="./images/8/8/wd1.png" alt="" class="imgheight">
+            </div>
+          </div>
+        </li>
+
+        <!-- 第九部分 -->
+        <li class="nine">
+          <div class="attAreat-four">
+            <img src="./images/8/8/bj.png" alt="" class="imgheight">
+            <div class="jkd-img">
+              <img src="./images/11/11/9/jk.png" alt="" class="imgheight">
+            </div>
+            <div class="jdh-img">
+              <img src="./images/11/11/9/jkjh.png" alt="" class="imgheight">
+            </div>
+            <div class="bao-three">
+              <img src="./images/11/11/9/bao.png" alt="" class="imgheight">
+            </div>
+            <div class="bao-four">
+              <img src="./images/11/11/9/bao2.png" alt="" class="imgheight">
+            </div>
+            <div class="wxl-img">
+              <img src="./images/11/11/9/htwy.png" alt="" class="imgheight">
+
+            </div>
+          </div>
+        </li>
+        <!-- 第十部分 -->
+        <li class="ten">
+          <div class="attAreat-five">
+            <img src="./images/11/11/10/bj.png" alt="" class="imgheight">
+            <div class="xk-img">
+              <img src="./images/11/11/10/xk.png" alt="" class="imgheight">
+            </div>
+            <div class="zx-img">
+              <img src="./images/11/11/10/zx.png" alt="" class="imgheight">
+            </div>
+            <div class="rw-four">
+              <img src="./images/11/11/10/rw.png" alt="" class="imgheight">
+            </div>
+            <div class="zl-img">
+              <img src="./images/11/11/10/zl.png" alt="" class="imgheight">
+            </div>
+            <div class="fx-img">
+              <a
+                href="https://re.jd.com/search?keyword=%e7%88%b1%e5%8d%8e%e4%bb%95%e7%9a%84%e5%8c%85&keywordid=340403852742&re_dcp=202m0QjIIg==&traffic_source=1004&enc=utf8&cu=true&utm_source=baidu-search&utm_medium=cpc&utm_campaign=t_262767352_baidusearch&utm_term=340403852742_0_fe30c7e0af7946ae845136d29cdbdbf0">
+                <img src="./images/11/11/10/fx1.png" alt="">
+              </a>
+            </div>
+          </div>
+      </ul>
     </div>
-  </body>
-  <script src="./js/one(1).js"></script>
+  </div>
+</body>
+<script src="./js/one(1).js"></script>
+
 </html>

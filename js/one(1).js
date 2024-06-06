@@ -11,6 +11,28 @@ var ksBtn = document.getElementsByClassName("ks-btn")[0];
 //     zImg.className = 'z-dx';
 //   }, 4000);
 // }
+// 切换音乐播放状态
+function toggleMusic() {
+  if (bgMusic.paused) {
+    playBackgroundMusic();
+  } else {
+    pauseBackgroundMusic();
+  }
+}
+
+// 播放音乐
+function playBackgroundMusic() {
+  bgMusic.play();
+  react_root.classList.add("musicRotate");
+  music_top.style.display = "none";
+}
+
+// 暂停音乐
+function pauseBackgroundMusic() {
+  bgMusic.pause();
+  react_root.classList.remove("musicRotate");
+  music_top.style.display = "block";
+}
 
 // 改
 // window.addEventListener('load', function() {
@@ -63,7 +85,7 @@ var fourThree = document.getElementsByClassName("four-bf-three")[0]
 
 // window.addEventListener('load', function() {
 ksBtn.onclick = function () {
-  
+
   one.style.display = 'none';
 
   oneImg.classList.add('one-imgt');
@@ -80,7 +102,7 @@ ksBtn.onclick = function () {
   setTimeout(() => {
     ztImg.classList.add('zt-imgt');
 
-  },3000);
+  }, 3000);
   setTimeout(() => {
     threeImg.classList.add('three-imgt');
 
@@ -165,7 +187,7 @@ var four = document.getElementsByClassName("four")[0];
 
 xzOne.onclick = function () {
   four.style.display = "none"
-
+  six.style.display = "none"
   attAs.classList.add("attAreatst");
   setTimeout(() => {
     sbImg.classList.add("sb-imgt");
@@ -209,6 +231,7 @@ var five = document.getElementsByClassName("five")[0];
 xzTow.onclick = function () {
   four.style.display = "none"
   five.style.display = "none"
+  six.style.display = ""
   setTimeout(() => {
     crImg.classList.add("cr-imgt");
   }, 1000);
@@ -263,11 +286,11 @@ var wxlImg = document.getElementsByClassName("wxl-img")[0];
 
 // 第十部分
 var nine = document.getElementsByClassName("nine")[0];
-var xkImg =document.getElementsByClassName("xk-img")[0];
-var zxImg =document.getElementsByClassName("zx-img")[0];
+var xkImg = document.getElementsByClassName("xk-img")[0];
+var zxImg = document.getElementsByClassName("zx-img")[0];
 var rwFour = document.getElementsByClassName("rw-four")[0];
-var zlImg =document.getElementsByClassName("zl-img")[0];
-var fxImg =document.getElementsByClassName("fx-img")[0];
+var zlImg = document.getElementsByClassName("zl-img")[0];
+var fxImg = document.getElementsByClassName("fx-img")[0];
 
 jxImg.onclick = function () {
   six.style.display = "none";
@@ -358,27 +381,27 @@ jxImg.onclick = function () {
     xkImg.classList.add("xk-imgt");
   }, 33000)
   setTimeout(() => {
-   zxImg.classList.add("zx-imgt");
+    zxImg.classList.add("zx-imgt");
   }, 34000)
   setTimeout(() => {
     rwFour.classList.add("rw-fourt");
-   }, 35000)
-   setTimeout(() => {
-    zlImg.style.opacity='1';
+  }, 35000)
+  setTimeout(() => {
+    zlImg.style.opacity = '1';
     zlImg.classList.add("btn-s");
-    fxImg.style.opacity='1';
+    fxImg.style.opacity = '1';
     fxImg.classList.add("btn-s");
-   }, 36000)
+  }, 36000)
 }
-zlImg.onclick = function(){
-  one.style.display="";
-  tow.style.display="";
-  three.style.display="";
-  four.style.display="";
-  five.style.display="";
-  six.style.display="";
-  seven.style.display="";
-  eight.style.display="";
-  nine.style.display="";
+zlImg.onclick = function () {
+  one.style.display = "";
+  tow.style.display = "";
+  three.style.display = "";
+  four.style.display = "";
+  five.style.display = "";
+  six.style.display = "";
+  seven.style.display = "";
+  eight.style.display = "";
+  nine.style.display = "";
   window.location.reload();
 }
