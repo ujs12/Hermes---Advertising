@@ -10,7 +10,11 @@ var ksBtn = document.getElementsByClassName("ks-btn")[0];
 //   setTimeout(function () {
 //     zImg.className = 'z-dx';
 //   }, 4000);
-// }
+// } 
+const bgMusic = document.getElementById("bgMusic");
+const react_root = document.getElementById("music");
+const music_top = document.getElementById("music_img_page_stop");
+
 // 切换音乐播放状态
 function toggleMusic() {
   if (bgMusic.paused) {
