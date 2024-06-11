@@ -784,9 +784,9 @@ img {
 
 .bb-one {
   /* width: 28.02%; */
-  height: 17.95%;
+  height: 18.95%;
   position: absolute;
-  top: 50.5%;
+  top: 49.5%;
   left: 13%;
   opacity: 0;
 
@@ -1540,16 +1540,16 @@ img {
 
 .zl-img {
      /* width: 38.67%; */
-     height: 6.73%;
+     height: 7.3%;
      position: absolute;
      top: 51.62%;
-     right: 7.83%;
+     right: 4%;
      opacity: 0;
 }
 
 .fx-img {
-  width: 41.67%;
-  /* height: 15.73%; */
+  /* width: 41.67%; */
+  height: 9.73%;
   position: absolute;
   bottom: 29.52%;
   right: 8.83%;
