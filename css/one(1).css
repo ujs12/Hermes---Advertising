@@ -518,10 +518,10 @@ img {
 }
 
 .rw-tow {
-  width: 38.72%;
-  height: 55.87%;
+  width: 43.72%;
+  /* height: 55.87%; */
   position: absolute;
-  top: 6.95%;
+  top: 12.95%;
   left: 5.03%;
   z-index: 1;
   opacity: 0;
@@ -611,8 +611,8 @@ img {
 }
 
 .one-bf-tow {
-  width: 51.42%;
-  height: 66.79%;
+  width: 58%;
+  /* height: 66.79%; */
   position: absolute;
   top: 20%;
   left: 5%;
@@ -670,8 +670,8 @@ img {
 }
 
 .three-bf-tow {
-  width: 43.85%;
-  height: 68.19%;
+  width: 55%;
+  /* height: 68.19%; */
   position: absolute;
   top: 20%;
   left: 30%;
@@ -741,11 +741,11 @@ img {
 
 
 .five-bf {
-  width: 41.31%;
-  height: 28.05%;
+  width: 49%;
+  /* height: 28.05%; */
   position: absolute;
-  top: 12%;
-  left: 56%;
+  top: 15%;
+  left: 50%;
   z-index: 2;
   opacity: 0;
 
@@ -812,30 +812,23 @@ img {
 
 .xz-one {
   /* width: 26%; */
-  height: 5.5%;
-  position: absolute;
-  top: 73%;
-  left: 10%;
-  opacity: 0;
+     /* width: 26%; */
+     height: 6.5%;
+     position: absolute;
+     top: 73%;
+     left: 8%;
+     opacity: 0;
 
 }
 
-.xz-onett {
-  animation-name: likes;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-duration: 1s;
 
-}
 
 .xz-tow {
   /* width: 26%; */
-  height: 5.5%;
+  height: 6.5%;
   position: absolute;
   top: 73%;
-  left: 55%;
+  left: 53%;
   opacity: 0;
 
 }
@@ -858,6 +851,7 @@ img {
   position: absolute;
   top: 0;
   z-index: 95;
+  /* z-index: 100; */
   background-color: #fff;
   justify-content: center;
   align-items: center;
@@ -1125,7 +1119,7 @@ img {
   width: 88.125%;
   height: 88.492%;
   position: relative;
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .right-ys {
@@ -1396,7 +1390,7 @@ img {
   position: absolute;
   top: 0;
   z-index: 91;
- 
+
   background-color: #fff;
   justify-content: center;
   align-items: center;
@@ -1519,7 +1513,7 @@ img {
   height: 25.67%;
   position: absolute;
   top: 4%;
-  right: 35%;
+  right: 46%;
   opacity: 0;
 }
 
@@ -1545,19 +1539,19 @@ img {
 }
 
 .zl-img {
-  /* width: 38.67%; */
-  height: 8.73%;
-  position: absolute;
-  top: 51.62%;
-  right: 7.83%;
-  opacity: 0;
+     /* width: 38.67%; */
+     height: 6.73%;
+     position: absolute;
+     top: 51.62%;
+     right: 7.83%;
+     opacity: 0;
 }
 
 .fx-img {
-  width: 37.67%;
-  height:15.73%;
+  width: 41.67%;
+  /* height: 15.73%; */
   position: absolute;
-  bottom: 21.52%;
+  bottom: 29.52%;
   right: 8.83%;
   opacity: 0;
 }
