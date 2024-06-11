@@ -867,7 +867,7 @@ img {
   width: 88.125%;
   height: 88.492%;
   position: relative;
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .attAreatst {
