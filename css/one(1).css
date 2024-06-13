@@ -187,12 +187,12 @@ img {
 }
 
 .p-one {
-  width: 25%;
+  width: 24%;
   /* height: 41.7%; */
   color: #333;
   position: absolute;
   top: 10%;
-  left: 17%;
+  left: 20%;
   /* display: none; */
   opacity: 0;
 }
@@ -202,11 +202,11 @@ img {
 }
 
 .p-tow {
-  width: 32%;
+  width: 31%;
   /* height: 38.23%; */
   position: absolute;
   top: 28%;
-  left: 46%;
+  left: 48%;
   /* display: none; */
   /* visibility:initial; */
   /* visibility: hidden; */
