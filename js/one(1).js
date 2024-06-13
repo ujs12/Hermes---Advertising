@@ -6,6 +6,7 @@ var pTow = document.getElementsByClassName("p-tow")[0];
 var yzImg = document.getElementsByClassName("yz-img")[0];
 var rwImg = document.getElementsByClassName("rw-img")[0];
 var ksBtn = document.getElementsByClassName("ks-btn")[0];
+const logo = document.getElementsByClassName("logo")[0];
 // xImg.click = function(){
 //   setTimeout(function () {
 //     zImg.className = 'z-dx';
@@ -28,6 +29,7 @@ setTimeout(() => {
 }, 3000);
 setTimeout(() => {
   yzImg.classList.add('yz-imgt');
+  logo.classList.add('logot')
 }, 4000);
 setTimeout(() => {
   rwImg.classList.add("rw-imgt");

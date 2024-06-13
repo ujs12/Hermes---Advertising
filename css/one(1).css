@@ -246,6 +246,17 @@ img {
   animation: showtow 1s ease-in-out forwards;
 }
 
+.logo{
+ width: 40%;
+  position: absolute;
+  top:63%;
+  left: 17%;
+  opacity: 0;
+}
+.logot{
+  animation: showtow 1s ease-in-out forwards;
+}
+
 /* 改：笔的动画 */
 .mb-img {
   width: 40%;
