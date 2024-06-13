@@ -187,8 +187,8 @@ img {
 }
 
 .p-one {
-  /* width: 25%; */
-  height: 41.7%;
+  width: 25%;
+  /* height: 41.7%; */
   color: #333;
   position: absolute;
   top: 10%;
@@ -202,8 +202,8 @@ img {
 }
 
 .p-tow {
-  /* width: 32%; */
-  height: 38.23%;
+  width: 32%;
+  /* height: 38.23%; */
   position: absolute;
   top: 28%;
   left: 46%;
