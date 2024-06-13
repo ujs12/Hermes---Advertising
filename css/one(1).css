@@ -232,9 +232,9 @@ img {
 }
 
 .yz-img {
-  width: 5%;
+  width: 8%;
   position: absolute;
-  top: 57%;
+  top: 53%;
   left: 30%;
   /* display: none;
     transform: top 1s ease-in-out  ; */
@@ -249,7 +249,7 @@ img {
 .logo{
  width: 27%;
   position: absolute;
-  top:63%;
+  top:61%;
   left: 17%;
   opacity: 0;
 }
