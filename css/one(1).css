@@ -794,11 +794,11 @@ img {
 }
 
 .bb-one {
-  width: 24.02%;
+  width: 25.02%;
   /* height: 18.95%; */
   position: absolute;
-  top: 51.5%;
-  left: 18%;
+  top: 50.5%;
+  left: 17%;
   opacity: 0;
 
 }
@@ -812,7 +812,7 @@ img {
   /* height: 22.78%; */
   position: absolute;
   top: 48%;
-  left: 60%;
+  left: 59%;
   opacity: 0;
 
 }
