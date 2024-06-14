@@ -392,6 +392,7 @@ zlImg.onclick = function () {
   eight.style.display = "";
   nine.style.display = "";
   window.location.reload();
+  
 }
 fxImg.onclick = function(){
   if(confirm("您确定要关闭本页吗？")){
