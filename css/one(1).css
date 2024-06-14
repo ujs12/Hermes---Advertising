@@ -1123,7 +1123,7 @@ img {
   top: 0;
    z-index: 94;
    
-   z-index: 100;
+   /* z-index: 100; */
   background-color: #fff;
   justify-content: center;
   align-items: center;
