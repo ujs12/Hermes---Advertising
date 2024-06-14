@@ -1528,7 +1528,7 @@ img {
   /* height: 25.67%; */
   position: absolute;
   top: 4%;
-  right: 46%;
+  right: 37%;
   opacity: 0;
 }
 
@@ -1562,12 +1562,23 @@ img {
   opacity: 0;
 }
 
+.logo-tow{
+  width: 30%;
+  position: absolute;
+  top: 4%;
+  left: 5%;
+  opacity: 0;
+}
+.logo-towt{
+  animation: showtow 2s ease-in-out forwards;
+}
+
 .fx-img {
-  width: 41.67%;
+  width: 37.67%;
   /* height: 9.73%; */
   position: absolute;
-  bottom: 29.52%;
-  right: 8.83%;
+  bottom: 31.52%;
+  right: 4.83%;
   opacity: 0;
 }
 

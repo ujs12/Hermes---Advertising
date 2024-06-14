@@ -274,6 +274,7 @@ var zxImg = document.getElementsByClassName("zx-img")[0];
 var rwFour = document.getElementsByClassName("rw-four")[0];
 var zlImg = document.getElementsByClassName("zl-img")[0];
 var fxImg = document.getElementsByClassName("fx-img")[0];
+var logotow = document.getElementsByClassName("logo-tow")[0];
 
 jxImg.onclick = function () {
   six.style.display = "none";
@@ -366,9 +367,13 @@ jxImg.onclick = function () {
   setTimeout(() => {
     zxImg.classList.add("zx-imgt");
   }, 34000)
+  setTimeout(()=>{
+    logotow.classList.add("logo-towt")
+  },34500)
   setTimeout(() => {
     rwFour.classList.add("rw-fourt");
   }, 35000)
+  
   setTimeout(() => {
     zlImg.style.opacity = '1';
     zlImg.classList.add("btn-s");
