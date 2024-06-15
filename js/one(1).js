@@ -394,12 +394,12 @@ zlImg.onclick = function () {
   window.location.reload();
 
 }
-// fxImg.onclick = function(){
-//   if(confirm("您确定要关闭本页吗？")){
-//     window.opener=null;
-//     window.open('','_self');
-//     window.close();
-// }
-// else{
-// }
-// }
+fxImg.onclick = function(){
+  if(confirm("您确定要关闭本页吗？")){
+    window.opener=null;
+    window.open('','_self');
+    window.close();
+}
+else{
+}
+}
